@@ -17,6 +17,8 @@
 # under the License.
 
 mvn install:install-file -Dfile=cloud-iControl.jar      -DgroupId=com.cloud.com.f5     -DartifactId=icontrol        -Dversion=1.0   -Dpackaging=jar
+mvn install:install-file -Dfile=iControl-12.1.0.jar     -DgroupId=com.cloud.com.f5     -DartifactId=icontrol        -Dversion=12.1  -Dpackaging=jar
+
 mvn install:install-file -Dfile=cloud-netscaler-sdx.jar -DgroupId=com.cloud.com.citrix -DartifactId=netscaler-sdx   -Dversion=1.0   -Dpackaging=jar
 
 # From https://my.vmware.com/group/vmware/get-download?downloadGroup=VSP510-WEBSDK-510
