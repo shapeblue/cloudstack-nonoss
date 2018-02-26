@@ -16,11 +16,14 @@
 # specific language governing permissions and limitations
 # under the License.
 
+# Netscalar 10+ is Apache2.0 now, this is for old releases
+mvn install:install-file -Dfile=cloud-netscaler-sdx.jar -DgroupId=com.cloud.com.citrix -DartifactId=netscaler-sdx   -Dversion=1.0   -Dpackaging=jar
+
+# F5/SRX dependency - EULA https://devcentral.f5.com/eula
 mvn install:install-file -Dfile=cloud-iControl.jar      -DgroupId=com.cloud.com.f5     -DartifactId=icontrol        -Dversion=1.0   -Dpackaging=jar
 mvn install:install-file -Dfile=iControl-12.1.0.jar     -DgroupId=com.cloud.com.f5     -DartifactId=icontrol        -Dversion=12.1  -Dpackaging=jar
 
-mvn install:install-file -Dfile=cloud-netscaler-sdx.jar -DgroupId=com.cloud.com.citrix -DartifactId=netscaler-sdx   -Dversion=1.0   -Dpackaging=jar
-
+# Vmware dependency - EULA
 # From https://my.vmware.com/group/vmware/get-download?downloadGroup=VSP510-WEBSDK-510
 # Version: 5.1, Release-date: 2012-09-10, Build: 774886
 mvn install:install-file -Dfile=vim25_51.jar        -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25    -Dversion=5.1   -Dpackaging=jar
@@ -29,11 +32,6 @@ mvn install:install-file -Dfile=vim25_60.jar        -DgroupId=com.cloud.com.vmwa
 mvn install:install-file -Dfile=vim25_65.jar        -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25    -Dversion=6.5   -Dpackaging=jar
 
 # From http://support.netapp.com/  (not available online, contact your support representative)
-# Version: 4.0
+# Version: 4.0 (http://community.netapp.com/t5/Developer-Network-Articles-and-Resources/NetApp-Manageability-NM-SDK-Introduction-and-Download-Information/ta-p/86418)
 if [ -e cloud-manageontap.jar ]; then mv cloud-manageontap.jar manageontap.jar;  fi
 mvn install:install-file -Dfile=manageontap.jar     -DgroupId=com.cloud.com.netapp -DartifactId=manageontap     -Dversion=4.0   -Dpackaging=jar
-
-mvn install:install-file -Dfile=manageontap-3.5.1vee.jar -DgroupId=com.netapp -DartifactId=manageontap    -Dversion=3.5.1vee  -Dpackaging=jar
-mvn install:install-file -Dfile=jndmp-3.0.jar            -DgroupId=com.netapp -DartifactId=jndmp          -Dversion=3.0       -Dpackaging=jar
-mvn install:install-file -Dfile=manage-offtap-2.4.jar    -DgroupId=com.netapp -DartifactId=manage-offtap  -Dversion=2.4       -Dpackaging=jar
-mvn install:install-file -Dfile=ndmpcopy-latest.jar      -DgroupId=com.netapp -DartifactId=ndmpcopy       -Dversion=latest    -Dpackaging=jar
