@@ -30,9 +30,12 @@ mvn install:install-file -Dfile=vim25_51.jar  -DgroupId=com.cloud.com.vmware -Da
 mvn install:install-file -Dfile=vim25_55.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=5.5   -Dpackaging=jar
 mvn install:install-file -Dfile=vim25_60.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=6.0   -Dpackaging=jar
 mvn install:install-file -Dfile=vim25_65.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=6.5   -Dpackaging=jar
-mvn install:install-file -Dfile=vim25_67.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=6.7   -Dpackaging=jar
 # https://my.vmware.com/group/vmware/get-download?downloadGroup=VS-MGMT-SDK67U3
+mvn install:install-file -Dfile=vim25_67.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=6.7   -Dpackaging=jar
 mvn install:install-file -Dfile=pbm_67.jar    -DgroupId=com.cloud.com.vmware -DartifactId=vmware-pbm     -Dversion=6.7   -Dpackaging=jar
+# https://my.vmware.com/group/vmware/downloads/get-download?downloadGroup=VS-MGMT-SDK700
+mvn install:install-file -Dfile=vim25_70.jar  -DgroupId=com.cloud.com.vmware -DartifactId=vmware-vim25   -Dversion=7.0   -Dpackaging=jar
+mvn install:install-file -Dfile=pbm_70.jar    -DgroupId=com.cloud.com.vmware -DartifactId=vmware-pbm     -Dversion=7.0   -Dpackaging=jar
 
 # From http://support.netapp.com/  (not available online, contact your support representative)
 # Version: 4.0 (http://community.netapp.com/t5/Developer-Network-Articles-and-Resources/NetApp-Manageability-NM-SDK-Introduction-and-Download-Information/ta-p/86418)
