@@ -54,3 +54,5 @@ mvn install:install-file -Dfile=vapi-authentication-2.37.0.jar -DgroupId=com.vmw
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-3.3.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=3.3.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-4.0.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=4.0.0 -Dpackaging=jar
 
+# From https://libvirt.org/maven2/net/juniper/tungsten/juniper-tungsten-api/2.0/
+mvn install:install-file -Dfile=juniper-tungsten-api-2.0.jar -DgroupId=net.juniper.tungsten -DartifactId=juniper-tungsten-api -Dversion=2.0 -Dpackaging=jar
