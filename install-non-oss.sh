@@ -56,3 +56,7 @@ mvn install:install-file -Dfile=vsphereautomation-client-sdk-4.0.0.jar -DgroupId
 
 # From https://libvirt.org/maven2/net/juniper/tungsten/juniper-tungsten-api/2.0/
 mvn install:install-file -Dfile=juniper-tungsten-api-2.0.jar -DgroupId=net.juniper.tungsten -DartifactId=juniper-tungsten-api -Dversion=2.0 -Dpackaging=jar
+
+# From https://customerconnect.vmware.com/downloads/details?downloadGroup=NSX-4011-SDK-JAVA&productId=1324
+mvn install:install-file -Dfile=nsx-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
+mvn install:install-file -Dfile=nsx-gpm-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-gpm-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
