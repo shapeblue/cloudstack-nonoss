@@ -49,8 +49,10 @@ mvn install:install-file -Dfile=manageontap.jar     -DgroupId=com.cloud.com.neta
 # From https://github.com/vmware/vsphere-automation-sdk-java/tree/master/lib
 mvn install:install-file -Dfile=vapi-runtime-2.15.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-runtime -Dversion=2.15.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vapi-runtime-2.37.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-runtime -Dversion=2.37.0 -Dpackaging=jar
+mvn install:install-file -Dfile=vapi-runtime-2.40.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-runtime -Dversion=2.40.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vapi-authentication-2.15.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-authentication -Dversion=2.15.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vapi-authentication-2.37.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-authentication -Dversion=2.37.0 -Dpackaging=jar
+mvn install:install-file -Dfile=vapi-authentication-2.40.0.jar -DgroupId=com.vmware.vapi -DartifactId=vapi-authentication -Dversion=2.40.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-3.3.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=3.3.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-4.0.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=4.0.0 -Dpackaging=jar
 
@@ -60,3 +62,4 @@ mvn install:install-file -Dfile=juniper-tungsten-api-2.0.jar -DgroupId=net.junip
 # From https://customerconnect.vmware.com/downloads/details?downloadGroup=NSX-4011-SDK-JAVA&productId=1324
 mvn install:install-file -Dfile=nsx-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
 mvn install:install-file -Dfile=nsx-gpm-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-gpm-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
+mvn install:install-file -Dfile=nsx-policy-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-policy-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
