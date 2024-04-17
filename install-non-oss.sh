@@ -56,7 +56,11 @@ mvn install:install-file -Dfile=vapi-authentication-2.40.0.jar -DgroupId=com.vmw
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-3.3.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=3.3.0 -Dpackaging=jar
 mvn install:install-file -Dfile=vsphereautomation-client-sdk-4.0.0.jar -DgroupId=com.vmware.vsphereautomation.client -DartifactId=vsphereautomation-client-sdk -Dversion=4.0.0 -Dpackaging=jar
 
-# From https://libvirt.org/maven2/net/juniper/tungsten/juniper-tungsten-api/2.0/
+# From https://juniper.github.io/contrail-maven/snapshots/net/juniper/contrail/juniper-contrail-api/1.0-SNAPSHOT/juniper-contrail-api-1.0-20131001.003401-3.jar
+# New version can be found at https://github.com/Juniper/contrail-maven/tree/master/releases/net/juniper/contrail/juniper-contrail-api/1.2
+mvn install:install-file -Dfile=juniper-contrail-api-1.0-SNAPSHOT.jar -DgroupId=net.juniper.contrail -DartifactId=juniper-contrail-api -Dversion=1.0-SNAPSHOT -Dpackaging=jar
+
+# From https://github.com/radu-todirica/tungsten-api/raw/master/net/juniper/tungsten/juniper-tungsten-api/2.0/juniper-tungsten-api-2.0.jar
 mvn install:install-file -Dfile=juniper-tungsten-api-2.0.jar -DgroupId=net.juniper.tungsten -DartifactId=juniper-tungsten-api -Dversion=2.0 -Dpackaging=jar
 
 # From https://customerconnect.vmware.com/downloads/details?downloadGroup=NSX-4011-SDK-JAVA&productId=1324
