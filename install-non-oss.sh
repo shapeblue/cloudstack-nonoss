@@ -67,3 +67,6 @@ mvn install:install-file -Dfile=juniper-tungsten-api-2.0.jar -DgroupId=net.junip
 mvn install:install-file -Dfile=nsx-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
 mvn install:install-file -Dfile=nsx-gpm-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-gpm-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
 mvn install:install-file -Dfile=nsx-policy-java-sdk-4.1.0.2.0.jar -DgroupId=com.vmware -DartifactId=nsx-policy-java-sdk -Dversion=4.1.0.2.0 -Dpackaging=jar
+
+# Install Netris 4.4 SDK
+mvn install:install-file -Dfile=target/netris-java-sdk-1.0.0.jar -DgroupId=io.netris -DartifactId=netris-java-sdk -Dversion=1.0.0 -Dpackaging=jar
