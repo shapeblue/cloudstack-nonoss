@@ -70,6 +70,8 @@ mvn install:install-file -Dfile=nsx-policy-java-sdk-4.1.0.2.0.jar -DgroupId=com.
 
 # Install Netris 4.4 SDK
 mvn install:install-file -Dfile=netris-java-sdk-1.0.0.jar -DgroupId=io.netris -DartifactId=netris-java-sdk -Dversion=1.0.0 -Dpackaging=jar
+mvn install:install-file -Dfile=netris-java-sdk-1.0.1.jar -DgroupId=io.netris -DartifactId=netris-java-sdk -Dversion=1.0.1 -Dpackaging=jar
+mvn install:install-file -Dfile=netris-java-sdk-1.1.0.jar -DgroupId=io.netris -DartifactId=netris-java-sdk -Dversion=1.1.0 -Dpackaging=jar
 
 # Install new JAR for Nested-oobm CloudStack plugin
 mvn install:install-file -Dfile=apache-cloudstack-java-client-1.0.9-new.jar -DgroupId=br.com.autonomiccs -DartifactId=apache-cloudstack-java-client -Dversion=1.0.9-1 -Dpackaging=jar
